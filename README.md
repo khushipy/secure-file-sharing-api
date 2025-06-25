@@ -1,6 +1,6 @@
 # Secure File Sharing System (FastAPI)
 
-A secure file-sharing REST API built using **FastAPI** that allows two types of users — **Ops** and **Client** — to interact with files securely. This includes file uploads (restricted to certain types), email verification, login, and secure downloads using encrypted links.
+A secure file-sharing REST API built using **FastAPI** that allows two types of users **Ops** and **Client** to interact with files securely. This includes file uploads (restricted to certain types), email verification, login, and secure downloads using encrypted links.
 
 ---
 
