@@ -68,7 +68,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## Upload & 🔽 Download Flow
+## Upload & Download Flow
 
 - Ops user uploads a file via `/upload` (only if authenticated).
 - Client user signs up and gets a simulated email with verification link.
@@ -79,7 +79,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## ✅ Unit Tests
+##  Unit Tests
 
 We use **`pytest`** with **`httpx.AsyncClient`** to simulate endpoints.
 
@@ -89,7 +89,7 @@ We use **`pytest`** with **`httpx.AsyncClient`** to simulate endpoints.
 pytest tests/
 ```
 
-✅ Includes test coverage for:
+ Includes test coverage for:
 
 - Auth (sign up, login)
 - Upload (ops-only)
@@ -99,7 +99,34 @@ pytest tests/
 
 ## Snapshots
 
-## 🌍 Deployment Plan
+**SignUp**
+![Screenshot 2025-06-25 135732](https://github.com/user-attachments/assets/9f38f373-4097-4d36-add5-4eee3d51b5fb)
+
+**Email-verification**
+![email-verification-ez](https://github.com/user-attachments/assets/44957399-89d2-4f54-9dc1-2c9bd9f87078)
+
+**Login**
+![Screenshot 2025-06-25 140437](https://github.com/user-attachments/assets/57ea6ddb-f325-4c39-abf8-928417229a86)
+
+**Client Users can't Upload**
+![client-can't-upload](https://github.com/user-attachments/assets/3a655669-e9aa-4a0f-b544-1b1d6106231a)
+
+**Successfully Uploaded File**
+![file-upload-ez](https://github.com/user-attachments/assets/d7d1eefd-3865-46f1-b39a-679e47d3d781)
+
+**Download-link Generated**
+![download-link-ez](https://github.com/user-attachments/assets/18d39a77-1ab0-49de-baf5-2360b76fbe64)
+
+**File Downloaded** 
+![download-ez](https://github.com/user-attachments/assets/23119187-4873-482c-83c3-5b92f659188e)
+
+**File-list**
+![get-file-ez](https://github.com/user-attachments/assets/820445ba-47b7-415f-86dc-262d710c7781)
+
+
+
+
+##  Deployment Plan
 
 Though this is a local system, here's how you can deploy it in production:
 
